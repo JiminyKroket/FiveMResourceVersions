@@ -1,1 +1,59 @@
-{"version":"PR0.1", "release_date":"12/7/2023", "release_time":"15:00EST"}
+{"version":"PR0.1", "release_date":"12/7/2023", "release_time":"15:00EST", "notes":`
+5/7/2023 -
+  File: client/client.lua --
+    Removed unnecessary Citizen.CreateThread;
+
+    Added custom integration points system for redemptions, togglable by the streamer with a selectable multiplier.
+      Provides usability to non-affiliate streamers;
+
+  File: server/server.lua --
+    Added custom integration points check for bit event logs;
+
+    Fixed bit event webhook log to use proper color from config;
+
+  File: html/bot.js --
+    Added chat notification system;
+
+  File: html/index.html --
+    Added custom integration point options;
+
+  File: html/index.css --
+    Converted savebutton id to class;
+
+
+
+12/7/2023 -
+  File: shared/config.lua --
+    Reordered and clarified locale reference and resource name variables;
+
+    Added server convar functionality for locale system;
+  
+  File: html/index.html --
+    Added config.js and re-ordered javascript scripts;
+
+  File: html/emotes.js --
+    Added catches for failed fetches;
+
+    Adjusted console.log calls to debugLog;
+
+  File: html/bot.js --
+    Moved all non-configurable functions to file, moved all configurable functions from file;
+
+    Adjusted console.log calls to debugLog;
+
+  File: html/config.js --
+    Created file;
+
+    Added debug config option, moved all configurable functions to file;
+
+    Adjusted console.log calls to debugLog;
+
+  File: fxmanifest.lua --
+    Added version;
+  
+  File: server/svcon.lua --
+    Added version checker options;
+  
+  File: server/server.lua --
+    Added version checker;
+`}
