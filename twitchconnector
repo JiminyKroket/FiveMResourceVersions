@@ -1,4 +1,4 @@
-{"version":"PR0.1", "release_date":"12/7/2023", "release_time":"15:00EST", "notes":`
+{"version":"PR0.1", "release_date":"12/7/2023", "release_time":"15:00EST", "notes":'
 5/7/2023 -
   File: client/client.lua --
     Removed unnecessary Citizen.CreateThread;
@@ -56,4 +56,4 @@
   
   File: server/server.lua --
     Added version checker;
-`}
+'}
